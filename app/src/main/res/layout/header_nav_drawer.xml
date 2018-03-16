@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@mipmap/wallpaper"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="CV. Nusantara Beta Studio"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+    <!--
+    <TextView
+        android:id="@+id/tv_verify"
+        android:layout_toRightOf="@id/tv_email"
+        android:layout_width="100dp"
+        android:layout_marginLeft="160dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Email Not Verified (Click to Verify)"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+    -->
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_email"
+        android:text="Aplikasi Reimbursement V.1.0"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/tv_name"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_reimbursement" />
+
+</RelativeLayout>

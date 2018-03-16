@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Reimbursement</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="username">Frisdiandi Septiatama</string>
+    <string name="email">frisdiandiseptiatama@gmail.com</string>
+
+    <!-- Navigation Drawer Menu -->
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="nav_menu_home">Home</string>
+    <string name="nav_menu_pengeluaran">Pengeluaran</string>
+    <string name="nav_menu_diary">Diary</string>
+    <string name="nav_menu_hutang">Hutang</string>
+    <string name="nav_menu_piutang">Piutang</string>
+    <string name="nav_menu_kenangan">Kenangan</string>
+    <string name="nav_menu_content_1">Menu 1</string>
+    <string name="nav_menu_content_2">Menu 2</string>
+    <string name="nav_menu_content_3">Menu 3</string>
+    <string name="nav_menu_content_4">Menu 4</string>
+    <string name="nav_menu_content_5">Menu 5</string>
+    <string name="nav_menu_contact">Contact</string>
+    <string name="nav_menu_about">About</string>
+    <string name="nav_menu_logout">Logout</string>
+    <string name="title">Judul</string>
+</resources>

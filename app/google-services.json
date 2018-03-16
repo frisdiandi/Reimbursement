@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "734580999012",
+    "firebase_url": "https://reimbursement-nbs.firebaseio.com",
+    "project_id": "reimbursement-nbs",
+    "storage_bucket": "reimbursement-nbs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734580999012:android:0bdef9e3b7da2f07",
+        "android_client_info": {
+          "package_name": "com.reimbursement.furgetech.reimbursement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734580999012-rkgegmk0linh91om9i79sfk2tds453f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reimbursement.furgetech.reimbursement",
+            "certificate_hash": "f806ed1e1a25bbb5239651fa6252a239b8159f3b"
+          }
+        },
+        {
+          "client_id": "734580999012-oh9b13ktnbfag77h6nt6aehijr8odjfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqF5T4363LeUM5Je8wSTQGibhx1h1bEh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734580999012-oh9b13ktnbfag77h6nt6aehijr8odjfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

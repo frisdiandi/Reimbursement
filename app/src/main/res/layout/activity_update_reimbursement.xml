@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/editTextTanggal"
+            android:layout_marginTop="15dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Tanggal" />
+
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/buttonOpenDatePicker"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/editTextTanggal"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:text="Pilih Tanggal"/>
+
+        <EditText
+            android:id="@+id/editTextJenisPengeluaran"
+            android:layout_below="@+id/editTextTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Jenis Pengeluaran" />
+
+        <EditText
+            android:id="@+id/editTextBiaya"
+            android:layout_below="@id/editTextJenisPengeluaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Biaya" />
+
+        <EditText
+            android:id="@+id/editTextStatus"
+            android:layout_below="@id/editTextBiaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Status" />
+
+        <EditText
+            android:id="@+id/editTextKeterangan"
+            android:layout_below="@id/editTextStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:lines="5"
+            android:gravity="left"
+            android:hint="Enter Keterangan" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextKeterangan"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonUpdatePengeluaran"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:background="#40e20b"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
